@@ -67,8 +67,16 @@ footer {
 	text-align: center;
 	color: #CC5500;
 }
+a{
+	color: #FF0000;
+}
+a:hover
+{
+	color: #00FF00;
+}
 h2 {
 	color: #FF06B5;
+	font-size: 30px;
 	font-family: "Teko", sans-serif;
 	text-align: center;
 }
