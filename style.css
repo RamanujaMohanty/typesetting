@@ -42,3 +42,9 @@ header, footer {
 }
 
 /* WRITE YOUR styling/typesetting CSS code BELOW HERE */
+header {
+	text-align: center;
+	font-size: 30px;
+	background-color: #00B9F2;
+	color: #ffffff;
+}
