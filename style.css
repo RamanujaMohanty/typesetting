@@ -1,4 +1,6 @@
 /* remove thic comment to add @import font or CSS variables at the top of this file */
+@import url('https://fonts.googleapis.com/css2?family=Rye&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap');
 * {
   box-sizing: border-box;
 }
@@ -42,9 +44,31 @@ header, footer {
 }
 
 /* WRITE YOUR styling/typesetting CSS code BELOW HERE */
+.rye-regular {
+  font-family: "Rye", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+/*
+.teko-<uniquifier> {
+  font-family: "Teko", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+*/
 header {
 	text-align: center;
 	font-size: 30px;
-	background-color: #00B9F2;
-	color: #ffffff;
+	color: #CC5500;
+	font-family: "Rye", serif;
+}
+footer {
+	text-align: center;
+	color: #CC5500;
+}
+h2 {
+	color: #FF06B5;
+	font-family: "Teko", sans-serif;
+	text-align: center;
 }
