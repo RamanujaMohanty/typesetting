@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Rye&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Mono:ital,wght@0,200..800;1,200..800&display=swap');
 * {
   box-sizing: border-box;
 }
@@ -58,30 +59,60 @@ header, footer {
 }
 */
 
+body {
+	background-color: #D3D3D3;
+	font-family: "Atkinson Hyperlegible Mono", sans-serif;
+}
+
 header {
 	text-align: center;
 	font-size: 30px;
-	color: #CC5500;
+	color: #F76806;
 	font-family: "Rye", serif;
 }
 
 footer {
 	text-align: center;
-	color: #CC5500;
+	color: #F76806;
 }
 
 a{
 	color: #FF0000;
 }
 
+a::after {
+	content: url('external-link-52.png');
+	font-size: 0.8em;
+	margin-left: 4px;
+	display: inline-block;
+}
+
 a:hover
 {
-	color: #00FF00;
+	color: #4B0082;
+}
+
+a:focus
+{
+	color: #F76806;
+}
+
+a:visited
+{
+	color: #CC5500;
 }
 
 h2 {
-	color: #FF06B5;
-	font-size: 30px;
+	color: #F76806;
+	font-size: 40px;
 	font-family: "Teko", sans-serif;
 	text-align: center;
+}
+
+ul {
+	list-style-type: square;
+}
+
+ol {
+	list-style-type: upper-alpha;
 }
